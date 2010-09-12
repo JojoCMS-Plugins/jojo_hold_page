@@ -14,7 +14,7 @@ If the "Login" link is not shown on the hold page, you can still log in by going
 
 Allowed groups
 --------------
-You can set any group to be allowed to log in and bypass the hold page. Running Setup will create any user groups that don't exist.
+If an Owner group to be allowed to log in and bypass the hold page. Running Setup will create the group if it don't exist.
 
 Google Analytics
 ----------------

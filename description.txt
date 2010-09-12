@@ -1,0 +1,1 @@
+Locks down your website with a hold page. (Needs to be enabled after installation)

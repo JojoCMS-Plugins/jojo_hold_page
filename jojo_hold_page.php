@@ -25,7 +25,7 @@ class Jojo_Plugin_jojo_hold_page extends Jojo_Plugin {
 			$allowed_groups = self::get_allowed_groups();
 			foreach ($allowed_groups as $group) {
 				if (in_array($group, $_USERGROUPS)) {
-					return true;
+					return array();
 				}
 			}
 			// Check if it's an allowed type of supporting file

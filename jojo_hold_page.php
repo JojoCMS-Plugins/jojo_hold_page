@@ -31,7 +31,7 @@ class Jojo_Plugin_jojo_hold_page extends Jojo_Plugin {
             // Check if it's an allowed type of supporting file
             // Now compile the list of allowed types (to prevent doing work before hand if we weren't going to get this far)
             $allowed_files = self::get_allowed_files();
-            if (!in_array(pathinfo($_GET['uri'], PATHINFO_EXTENSION), $allowed_files)) {
+            if (!in_array(pathinfo(parse_url($_GET['uri'], PHP_URL_PATH), PATHINFO_EXTENSION), $allowed_files)) {
                 self::show_hold_page();
             }
         }

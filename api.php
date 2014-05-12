@@ -42,7 +42,7 @@ $_options[] = array(
 	'label'       => 'Allowed file types',
 	'description' => 'Allow these types of files to be accessed while the site is on hold (eg linked to from the hold page).',
 	'type'        => 'text',
-	'default'     => 'css,js,jpg,jpeg,gif,png',
+	'default'     => 'css,js,jpg,jpeg,gif,png,eot,svg,ttf,woff',
 	'options'     => '',
 	'plugin'      => $plugin_name
 );
